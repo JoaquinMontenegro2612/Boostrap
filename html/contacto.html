@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/css-bs.css">
+    <title> PANADERIA</title>
+</head>
+
+<body>
+    <!-- Inicia Nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../INDEXBS.html"><img src="../html/imagenes/Medialuna-Logo.gif" id="imgSize"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="nav-text text-center text-white">
+                <h1>Panaderia Artesanal Argentina En Barcelona</h1>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-4">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/html/galeria.html">Galeria</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Tienda
+                </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Salados</a></li>
+                            <li><a class="dropdown-item" href="#">Dulces</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Cosas Gordificas</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Carrito de Compras</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Termina Nav -->
+    <!-- Empieza Form -->
+    <div class="container-fluid rounded bg-dark marta">
+        <div class="row px-4">
+            <div class="col-sm-6">
+                <div>
+                    <h2 class="text-white text-center">Mantente en contacto</h2>
+                    <p class="text-secondary fs-2 text-center">Podes encontrarnos en </p>
+                </div>
+                <div class="row align-items-center">
+                    <div class="links col" id="bordering">
+                        <a href="#" class="btn rounded text-white p-3 fs-2">
+                            <i class="fa fa-phone icnClr"></i> 0800-MEDIALUNA</a>
+                        <a href="#" class="btn rounded text-start text-white p-3 fs-2">
+                            <i class="fa fa-envelope icnClr"></i>medialunaCont@gmail.com</a>
+                        <a href="#" class="btn rounded text-white p-3 fs-2">
+                            <i class="fa fa-map-marker icnClr"></i>Calle Falsa 123</a>
+                    </div>
+                    <div class="pt-lg-4 d-flex flex-column justify-content-start col">
+                        <div class="pad-icon">
+                            <a class="text-white icnClr fs-2" href="https://www.facebook.com/"><img src="../html/imagenes/facebook-logo.png" alt=""> Facebook</a>
+                        </div>
+                        <div class="pad-icon">
+                            <a class="text-white icnClr fs-2" href="https://www.instagram.com/"><img src="../html/imagenes/instagram.png" alt="">Instagram</a>
+                        </div>
+                        <div class="pad-icon">
+                            <a class="text-white icnClr fs-2" href="https://twitter.com/"><img src="../html/imagenes/twitter.png" alt="">Twitter</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 pad">
+                <form class="rounded msg-form">
+                    <div class="form-group"> <label for="name" class="h2">Nombre</label>
+                        <div class="input-group border rounded">
+                            <div class="input-group-addon px-2 pt-1">
+                                <p class="fa fa-user-o text-primary"></p>
+                            </div> <input type="text" class="form-control border-0">
+                        </div>
+                    </div>
+                    <div class="form-group"> <label for="name" class="h2">Email</label>
+                        <div class="input-group border rounded">
+                            <div class="input-group-addon px-2 pt-1"> <i class="fa fa-envelope text-dark"></i> </div> <input type="text" class="form-control border-0">
+                        </div>
+                    </div>
+                    <div class="form-group"> <label for="msg" class="h2">Mensaje</label> <textarea name="message" id="msgus" cols="10" rows="5" class="form-control bg-light fs-2" placeholder="Escribe tu mensaje aqui"></textarea> </div>
+                    <div class="form-group d-flex justify-content-end"> <input type="submit" class="btn btn-dark text-white fs-2" value="Enviar Mensaje"> </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Termina Form -->
+
+    <!-- Inicio Footer -->
+
+    <div id="footer">
+        <blockquote class="blockquote mb-0 text-center text-white bg-dark fs-3 ">
+            <p>“Si tienes pan y lentejas, para que te quejas.”</p>
+            <footer class="blockquote-footer fs-4">primero somos Abuelas, y despues, vivimos</footer>
+        </blockquote>
+    </div>
+    <!-- Final Footer -->
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+html {
+    font-size: 62.5%;
+}
+
+
+/* PALETA DE COLORES  */
+
+:root {
+    /* principal */
+    --ppl: #3333;
+    /* secundario */
+    --scnd: white;
+    /* Tercero */
+    --trc: rgb(165, 89, 2);
+}
+
+
+/* Backgrounds Color */
+
+.bg {}
+
+
+/* Tamaño Imagenes */
+
+.navbar-brand #imgSize {
+    width: 7rem;
+    height: 7rem;
+}
+
+.imgCar {
+    width: 100%;
+    height: 80rem;
+}
+
+.color-opct {
+    opacity: 70%;
+}
+
+@media (min-width: 768) and (max-width:) {}
+
+
+/* ----------------------------------------------------------------------------------- */
+
+
+/*--------------------------------------- Empieza Form -------------------------------*/
+
+
+/* ---------------------------------------------------------------------------------- */
+
+body {
+    background-image: url(../html/imagenes/fondo-contacto.jpg);
+    background-size: cover;
+}
+
+.msg-form {
+    background-color: white;
+    padding: 20px
+}
+
+.pad-icon {
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.pad-icon a {
+    text-decoration: none;
+    margin-right: 40px
+}
+
+.pad-icon img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.input-group input:focus {
+    border: 1px solid var(--trc);
+}
+
+.pad-icon a:active {
+    height: 30px;
+    width: 30px;
+    background-color: #ffffff;
+    border-radius: 100%;
+}
+
+.links {
+    padding-top: 50px;
+    width: 50%;
+}
+
+#bordering a:active {
+    border: 1px solid var(--trc);
+}
+
+@media(min-width:568px) {
+    .marta {
+        margin: 100px 30px;
+        width: 96%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+@media(max-width:567px) {
+    .marta {
+        margin: 10px 10px;
+        width: 94%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .pad {
+        padding-top: 20px;
+    }
+}
+
+
+/* color iconos */
+
+.icnClr {
+    color: var(--trc);
+}
+
+#orden {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Termina Form */
