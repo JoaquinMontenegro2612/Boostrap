@@ -17,8 +17,6 @@ html {
 
 /* Backgrounds Color */
 
-.bg {}
-
 
 /* Tamaño Imagenes */
 
@@ -104,38 +102,6 @@ body {
 #bordering a:active {
     border: 1px solid var(--trc);
 }
-
-
-/* 
-
-@media(min-width:568px) {
-    .tmnTxt {
-        margin: 100px 30px;
-        width: 96%;
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-}
-
-@media(max-width:567px) {
-    .tmnTxt {
-        margin: 10px 10px;
-        width: 94%;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    .pad {
-        padding-top: 20px;
-    }
-} */
-
-
-/* 
-@media (min-width: 360px) {
-    .tmnTxt {
-        font-size: x-small;
-    }
-} */
 
 
 /* color iconos */
