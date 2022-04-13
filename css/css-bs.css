@@ -1,123 +1,65 @@
-html {
-    font-size: 62.5%;
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;700&display=swap");
+* {
+    padding: 0;
+    margin: 0;
 }
 
-
-/* PALETA DE COLORES  */
-
-:root {
-    /* principal */
-    --ppl: #3333;
-    /* secundario */
-    --scnd: white;
-    /* Tercero */
-    --trc: rgb(165, 89, 2);
+.botonera {
+    background-color: #001207;
+    padding: 10px 30px;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-
-/* Backgrounds Color */
-
-
-/* Tamaño Imagenes */
-
-.navbar-brand #imgSize {
-    width: 7rem;
-    height: 7rem;
+.botonera img {
+    width: 15%;
 }
 
-.imgCar {
-    width: 100%;
-    height: 90rem;
-}
-
-.color-opct {
-    opacity: 70%;
-}
-
-.alto {
-    height: 20%;
-}
-
-@media (min-width: 360px) and (max-width:1200px) {
-    .navbar-brand #imgSize {
-        width: 4rem;
-        height: 4rem;
-    }
-    .mq-tit {
-        font-size: 1rem;
-        text-align: center;
-    }
-    .imgCar {
-        margin-top: 5rem;
-        width: 100%;
-        height: 40rem;
+@media (max-width: 480px) {
+    .botonera img {
+        width: 5%;
     }
 }
 
-
-/* ---------------------------------------- */
-
-
-/*------------- Empieza Form --------------*/
-
-
-/* --------------------------------------- */
-
-body {
-    background-image: url(../html/imagenes/fondo-contacto.jpg);
-    background-size: cover;
+.botonera ul {
+    display: flex;
 }
 
-.msg-form {
-    background-color: white;
-    padding: 20px
+.botonera ul li {
+    list-style: none;
 }
 
-.pad-icon {
-    padding-top: 2rem;
-    padding-left: 2rem;
-}
-
-.pad-icon a {
+.botonera ul li a {
+    font-size: 1em;
+    color: white;
     text-decoration: none;
-    margin-right: 40px
+    font-family: "Vollkorn", serif;
+    margin-left: 10px;
 }
 
-.pad-icon img {
-    width: 3rem;
-    height: 3rem;
+.botonera ul li a:hover {
+    color: #ffbd59;
 }
 
-.input-group input:focus {
-    border: 1px solid var(--trc);
+#dashboard {
+    background-color: rgba(8, 5, 13, 0.692);
 }
 
-.pad-icon a:active {
-    height: 30px;
-    width: 30px;
-    background-color: #ffffff;
-    border-radius: 100%;
+#dashboard h3 {
+    color: #d7ab69;
+    font-size: 3em;
+    margin: 10px 0;
 }
 
-#bordering a:active {
-    border: 1px solid var(--trc);
+#dashboard p {
+    color: white;
+    font-size: 2em;
+    line-height: 1.4em;
+    font-family: "Grape Nuts", cursive;
 }
 
-
-/* color iconos */
-
-.icnClr {
-    color: var(--trc);
+#dashboard p strong {
+    font-weight: 600;
 }
-
-
-/* Termina Form */
-
-
-/* -------------------------------------------------------- */
-
-
-/*--------------------- Empieza Footer ---------------------*/
-
-
-/* -------------------------------------------------------- */
