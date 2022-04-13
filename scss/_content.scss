@@ -1,0 +1,18 @@
+#dashboard {
+    background-color: $backgroundTxt;
+    // padding: 20px 50px;
+    h3 {
+        color: $keyColor;
+        font-size: $textLg;
+        margin: 10px 0;
+    }
+    p {
+        color: $secondColor;
+        font-size: $textMd;
+        line-height: 1.4em;
+        font-family: $fontSecondary;
+        strong {
+            font-weight: 600;
+        }
+    }
+}

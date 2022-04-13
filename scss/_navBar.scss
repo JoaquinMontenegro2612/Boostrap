@@ -1,0 +1,31 @@
+//nesting
+.botonera {
+    background-color: $mainColor;
+    padding: 10px 30px;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+        width: $w-15;
+        @media (max-width: 480px) {
+            width: $w-5;
+        }
+    }
+    ul {
+        display: flex;
+        li {
+            list-style: none;
+            a {
+                font-size: $textSm;
+                color: $secondColor;
+                text-decoration: none;
+                font-family: $fontMain;
+                margin-left: 10px;
+                &:hover {
+                    color: $hoverColor;
+                }
+            }
+        }
+    }
+}
