@@ -1,13 +1,13 @@
 //nesting
 .botonera {
     background-color: $mainColor;
-    padding: 10px 30px;
-    position: sticky;
+    padding: 2px 3px;
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
     img {
-        width: $w-15;
+        height: 10rem;
         @media (max-width: 480px) {
             width: $w-5;
         }

@@ -12,7 +12,32 @@
         line-height: 1.4em;
         font-family: $fontSecondary;
         strong {
-            font-weight: 600;
+            font-weight: 60;
         }
     }
 }
+
+.imgCar {
+    width: 100%;
+    height: 65%;
+}
+
+//Termina INDEXBS.html
+//Comienza Contents Contacto
+.tmnTxt {
+    font-size: 3rem;
+}
+
+.icnClr {
+    height: 15px;
+}
+
+.pad-icon {
+    text-decoration: none;
+    img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+//Finaliza Contents Contacto
