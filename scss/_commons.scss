@@ -19,11 +19,10 @@ $w-2: 2rem;
 //     border-radius: 15px;
 // }
 //Mixins
-@mixin texto($font-size, $line-height, $color) {
-    font-size: $font-size;
-    line-height: $line-height;
-    color: $color;
-    padding: 4px 20px;
-}
-
+// @mixin texto($font-size, $line-height, $color) {
+//     font-size: $font-size;
+//     line-height: $line-height;
+//     color: $color;
+//     padding: 4px 20px;
+// }
 //Map

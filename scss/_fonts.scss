@@ -1,10 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&family=EB+Garamond:ital,wght@0,500;1,800&display=swap');
 $fontMain:'Vollkorn',
 serif;
 $fontSecondary:'Grape Nuts',
 cursive;
+// fuente de tienda
+$fontTienda:'Bebas Neue',
+cursive;
+// Fuente de tienda secundaria
+$fontSecondT: 'Bree Serif',
+serif;
+// Fuente de tienda Terciaria
+$fontTercT:'EB Garamond',
+serif;
+// Fuente de tienda cuarta
+$fontCuarT:'Farsan',
+cursive;
 //Size Text
 $textXl: 4em;
 $textLg: 3em;
-$textMd: 2em;
-$textSm: 1em;
+$textMd: 1.5em;
+$textSm: 0.9em;
+$textXSm: 0.5em;
+// texto titulo media query
+$textttlmq: 1em;
+// h1,
+// h2,
+// h3

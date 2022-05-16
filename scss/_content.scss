@@ -1,14 +1,13 @@
 #dashboard {
     background-color: $backgroundTxt;
-    // padding: 20px 50px;
     h3 {
         color: $keyColor;
-        font-size: $textLg;
+        font-size: $textMd;
         margin: 10px 0;
     }
     p {
         color: $secondColor;
-        font-size: $textMd;
+        font-size: $textXSm;
         line-height: 1.4em;
         font-family: $fontSecondary;
         strong {
@@ -24,12 +23,16 @@
 
 //Termina INDEXBS.html
 //Comienza Contents Contacto
-.tmnTxt {
-    font-size: 3rem;
+body {
+    background-color: #333;
 }
 
-.icnClr {
-    height: 15px;
+.tmnTxt {
+    font-size: $textMd;
+}
+
+.form-group {
+    font-size: $textMd;
 }
 
 .pad-icon {
@@ -42,17 +45,9 @@
 
 //Finaliza Contents Contacto
 // Comienza Contents Tienda
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&family=EB+Garamond:ital,wght@0,500;1,800&display=swap');
-#tienda {
-    background: #DFC2F2;
-    background-image: linear-gradient( to right, #ffffb3, #ffe6e6);
-    background-attachment: fixed;
-    background-size: cover;
-}
-
 #container {
     box-shadow: 0 15px 30px 1px grey;
-    background: rgba(255, 255, 255, 0.90);
+    background: rgba(16, 8, 8, 0.9);
     text-align: center;
     border-radius: 5px;
     overflow: hidden;
@@ -71,12 +66,12 @@
     width: 40%;
 }
 
-#container .product-details h1 {
-    font-family: 'Bebas Neue', cursive;
+#container .product-details h2 {
+    font-family: $fontTienda;
     display: inline-block;
     position: relative;
     font-size: 30px;
-    color: #05070a;
+    color: #fbfcfd;
     margin: 0;
 }
 
@@ -86,7 +81,7 @@
     right: 0%;
     top: 0%;
     transform: translate(25px, -15px);
-    font-family: 'Bree Serif', serif;
+    font-family: $fontSecondT;
     display: inline-block;
     background: #ffe6e6;
     border-radius: 5px;
@@ -105,10 +100,10 @@
 }
 
 #container .product-details>p {
-    font-family: 'EB Garamond', serif;
+    font-family: $fontTercT;
     text-align: center;
     font-size: 18px;
-    color: #3b2323;
+    color: #f6f0f0;
 }
 
 .control {
@@ -138,7 +133,7 @@
 }
 
 .btn span {
-    font-family: 'Farsan', cursive;
+    font-family: $fontCuarT;
     transition: transform 0.3s;
     display: inline-block;
     padding: 10px 20px;
@@ -218,15 +213,15 @@
 }
 
 #titulo {
-    color: rgba(27, 26, 26, 0.9);
+    color: rgba(62, 100, 125, 0.9);
     text-align: center;
     margin-top: 40px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: $fontTienda;
     font-size: 5rem;
 }
 
 h5 {
-    color: #333;
+    color: rgb(123, 95, 95);
 }
 
 .product-image:hover .info {
@@ -249,9 +244,33 @@ h5 {
     transform: scale(1.2, 1.2);
 }
 
+.paddingFooter {
+    padding-bottom: 15em;
+}
+
 // Finaliza Contents Tienda
 // Comienza Contents Nuestros Servicios
-// .card .card-text {
-//     @mixin texto;
-// }
+#bodyServ {
+    background: #DFC2F2;
+    background-image: linear-gradient( to right, #ffffb3, #ffe6e6);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 // Finaliza Contents Nuestros Servicios
+// Comienza Contents Carrito
+th img {
+    height: 6rem;
+}
+
+hr {
+    color: #FFF;
+}
+
+span {
+    color: $secondColor;
+    display: flex;
+    justify-content: right;
+}
+
+// Finaliza Contents Carrito

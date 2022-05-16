@@ -7,9 +7,17 @@
     justify-content: space-between;
     align-items: center;
     img {
-        height: 10rem;
+        height: 6rem;
         @media (max-width: 480px) {
-            width: $w-5;
+            height: 3rem;
+        }
+    }
+    h1 {
+        font-size: $textMd;
+        text-align: center;
+        @media (max-width: 480px) {
+            font-size: $textttlmq;
+            text-align: left;
         }
     }
     ul {
